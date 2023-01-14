@@ -6,7 +6,7 @@ const team = () => {
   return (
     <>
       <Navbar />
-      <div className="container h-[80vh] justify-center flex-wrap flex bg-gradient-to-r from-violet-300 to-violet-400">
+      <div className="w-full h-auto py-5 lg:h-[80vh] justify-center flex-wrap flex bg-gradient-to-r from-violet-300 to-violet-400">
         <div className="ml-5 p-9 h-[400px] w-[250px] member flex items-center justify-center flex-col gap-3 shadow-2xl bg-transparent">
           <img
             src="https://avatars.githubusercontent.com/u/63300537?s=400&u=1a639a062e6936727f3e9b591bf6a65990f25e75&v=4"

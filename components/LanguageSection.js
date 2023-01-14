@@ -5,7 +5,9 @@ const LanguageSection = () => {
   return (
     <>
       <div className="py-5 bg-gradient-to-r from-violet-300 to-violet-400">
-        <h1 className="font-semibold ml-4">Popular programming languages </h1>
+        <h1 className="font-semibold text-center text-white">
+          Popular programming languages{" "}
+        </h1>
         <div className="flex flex-wrap justify-center gap-1">
           <CodeCard />
         </div>

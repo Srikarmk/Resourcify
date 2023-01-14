@@ -23,7 +23,7 @@ const navbar = () => {
             Resources
           </Link>
           <Link href="/team" className="text-white font-semibold">
-            Our Team
+            Team
           </Link>
           <Link href="https://discord.gg/RMHKcb8xZR" className="mt-2">
             <Button btn="Join Now" />

@@ -4,10 +4,10 @@ const Features = () => {
   return (
     <>
       <section className="flex flex-col w-full md:flex-row justify-around p-10 bg-gradient-to-r from-violet-300 to-violet-400">
-        <div>
+        <div className="flex items-center justify-center">
           <img src="../coding.svg" alt="coding" className="w-[300px]" />
         </div>
-        <div className="drop-shadow-xl flex flex-col gap-4">
+        <div className="drop-shadow-xl flex flex-col gap-4 text-center">
           <h1 className="font-bold text-white">
             Your One-Stop-Shop for Coding Resources
           </h1>
