@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import Link from "next/link";
 
 const Community = () => {
   return (
@@ -13,7 +14,9 @@ const Community = () => {
           We understand that learning to code can be challenging, that's why our
           platform is designed to be as accessible and inclusive as possible.
         </p>
-        <Button btn="Join Now" custom={`mt-5 font-semibold`} />
+        <Link href="https://discord.gg/RMHKcb8xZR">
+          <Button btn="Join Now" custom={`mt-5 font-semibold`} />
+        </Link>
         <img
           src="../discord.png"
           alt="discord"
