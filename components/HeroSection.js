@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <>
       <section className="flex w-full py-10 flex-col lg:flex-row bg-gradient-to-r from-violet-300 to-violet-400">
-        <div className="flex-1 flex flex-col justify-center items-start">
+        <div className="app-hero flex-1 flex flex-col justify-center items-start">
           <h1 className="text-lg font-semibold mx-3 ml-[50px]">
             Want to learn coding but don't know where to start? <br /> Look no
             further than{" "}

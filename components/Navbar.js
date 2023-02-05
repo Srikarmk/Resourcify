@@ -5,7 +5,7 @@ import Button from "./Button";
 const navbar = () => {
   return (
     <>
-      <nav className="flex justify-around items-start bg-gradient-to-r from-violet-300 to-violet-400 ">
+      <nav className="flex justify-evenly items-start bg-gradient-to-r from-violet-300 to-violet-400 ">
         <div className="logo">
           <Link href="/">
             <img
