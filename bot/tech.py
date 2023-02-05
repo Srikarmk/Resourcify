@@ -7,8 +7,8 @@ def tech(message):
   print(x)
   techl=x[0]
   typel=x[1]
-  msg=(requests.get(f"https://resourcify.glitch.me/resources?technology={techl}&type={typel}").text)
+  msg=(requests.get(f"https://imhemantchaubey-resourcify.glitch.me/resources?technology={techl}&type={typel}").text)
   msg=msg[1:-1]
   return msg
-  
-  
+
+
